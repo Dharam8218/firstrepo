@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Display State</title>
+</head>
+<body>
+   <h1 style="color:red">Select any state to display the district name</h1>
+   <form action="stateurl" method="get" name="stateform">
+     State::<select name="states" onchange="stateform.submit()">
+             <option>Select any State</option>
+             <option value="up">Uttar Pradesh</option>
+             <option value="Bihar">Bihar</option>
+             <option value="hp">Himanchal Pradesh</option>
+             <option value="rj">Rajasthan</option>
+            </select>
+   </form>
+</body>
+</html>

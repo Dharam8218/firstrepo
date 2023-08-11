@@ -1,0 +1,4 @@
+127.0.0.1 - - [01/Jun/2022:20:25:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:20:25:18 +0530] "GET /SessionManagementProblemApp/ HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:20:25:38 +0530] "POST /SessionManagementProblemApp/furl HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [01/Jun/2022:20:26:05 +0530] "POST /SessionManagementProblemApp/surl HTTP/1.1" 200 168

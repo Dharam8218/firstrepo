@@ -1,0 +1,9 @@
+127.0.0.1 - - [01/May/2022:22:43:35 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:43:36 +0530] "GET /TestMarriageEligibilityApp/ HTTP/1.1" 200 694
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:43:52 +0530] "POST /TestMarriageEligibilityApp/marriageurl HTTP/1.1" 200 104
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:43:55 +0530] "GET /TestMarriageEligibilityApp/marriage.html HTTP/1.1" 200 694
+127.0.0.1 - - [01/May/2022:22:44:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:44:38 +0530] "GET /StateApp/ HTTP/1.1" 200 629
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:44:42 +0530] "GET /StateApp/stateurl?states=up HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:44:59 +0530] "GET /StateApp/stateurl?states=Select+any+State HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/May/2022:22:45:09 +0530] "GET /StateApp/stateurl?states=Bihar HTTP/1.1" 200 61

@@ -1,0 +1,15 @@
+127.0.0.1 - - [13/Jul/2022:13:11:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:11:40 +0530] "GET /MiniProjectDevelopment/ HTTP/1.1" 200 493
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:13:01 +0530] "POST /MiniProjectDevelopment/furl HTTP/1.1" 404 782
+127.0.0.1 - - [13/Jul/2022:13:14:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:14:51 +0530] "POST /MiniProjectDevelopment/furl HTTP/1.1" 404 782
+127.0.0.1 - - [13/Jul/2022:13:15:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:16:18 +0530] "POST /MiniProjectDevelopment/furl HTTP/1.1" 200 53
+127.0.0.1 - - [13/Jul/2022:13:21:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:07 +0530] "GET /MiniProjectDevelopment/ HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:08 +0530] "GET /MiniProjectDevelopment/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:15 +0530] "POST /MiniProjectDevelopment/furl HTTP/1.1" 500 1420
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:26 +0530] "GET /MiniProjectDevelopment/form.html HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:26 +0530] "GET /MiniProjectDevelopment/form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:27 +0530] "GET /MiniProjectDevelopment/form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jul/2022:13:21:27 +0530] "GET /MiniProjectDevelopment/form.html HTTP/1.1" 304 -

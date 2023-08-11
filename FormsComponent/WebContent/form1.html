@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+         <h1 style="color: red">Personal Details</h1>
+	<form action="formurl" method="post">
+	 <table border="1">
+	
+		 <tr>
+			<td>Name</td>
+			<td><input type="text" name="pname"></td>
+		 </tr>
+		<tr>
+			<td>Age</td>
+			<td>
+			  <input type="password" name="pass">
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td><input type="radio" name="gen" value="M" checked="checked">Male
+				<input type="radio" name="gen" value="F">Female
+			</td>
+
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea name="paddress" rows="4" cols="30">
+              </textarea>
+            </td>
+		</tr>
+		<tr>
+			<td>Marital Status</td>
+			<td><input type="checkbox" name="ms" value="married">Married
+		        <input type="checkbox" name="ms" value="unmarried">Unmarried	
+			</td>
+
+		</tr>
+		<tr>
+			<td>Qualification</td>
+			<td>
+			  <select name="qlfy">
+			        <option>Select your degree</option>
+					<option value="engg">B.tech</option>
+					<option value="doctor">MBBS</option>
+					<option value="arts">BA</option>
+					<option value="commerce">B.com</option>
+			</select>
+		   </td>
+		</tr>
+		<tr>
+			<td>Course</td>
+			<td>
+			     <select name="courses" multiple="multiple">
+					<option value="java">Java</option>
+					<option value="py">Python</option>
+					<option value="ds">Data Structure</option>
+					<option value="mobileapp">Andriod</option>
+			     </select>
+			</td>
+		</tr>
+		<tr>
+			<td>Hobbies</td>
+			<td>
+			    <input type="checkbox" name="hb" value="read">Readings
+				<input type="checkbox" name="hb" value="roaming">Traveling
+				<input type="checkbox" name="hb" value="meditation">Sleeping 
+				<input type="checkbox" name="hb" value="playing">Cricket
+			</td>
+		</tr>
+		<tr>
+			<td>
+			    <input type="submit" value="Submit">
+			</td>
+			<td>
+			    <input type="reset" value="Reset">
+			</td>
+		</tr>
+		
+	  </table>
+	</form>
+</body>
+</html>
