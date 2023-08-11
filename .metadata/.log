@@ -10876,3 +10876,6 @@ java.lang.NoClassDefFoundError: javax/annotation/PostConstruct
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
 Caused by: java.lang.ClassNotFoundException: javax.annotation.PostConstruct cannot be found by org.eclipse.recommenders.rcp_2.5.4.v20180909-1132
 	... 67 more
+
+!ENTRY org.eclipse.equinox.security 1 0 2023-08-11 13:11:11.761
+!MESSAGE New keyring password generated. 
