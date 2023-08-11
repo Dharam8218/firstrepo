@@ -13,7 +13,6 @@ public class HeaderServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
     	res.setContentType("text/html");
     	PrintWriter pw = res.getWriter();
-    	pw.println("Hello Everyone");
     	pw.println("<h1>Dharam Pvt Ltd.</h1>");
     }
 }
